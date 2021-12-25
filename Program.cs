@@ -1,7 +1,20 @@
+using proyectomysql.AccesoDatos.Data;
+
+using Microsoft.EntityFrameworkCore;  
+  
+
+
+
 var builder = WebApplication.CreateBuilder(args);
 
+
+ 
+builder.Services.AddDbContext<Dbcontex>(options =>
+    options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+//AGREGAR RAZOR COMPILATION
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 var app = builder.Build();
 
@@ -22,6 +35,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{area=Inventario}/{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

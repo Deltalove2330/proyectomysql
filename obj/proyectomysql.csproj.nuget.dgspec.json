@@ -1,17 +1,96 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\proyectomysql\\proyectomysql.csproj": {}
+    "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql\\proyectomysql.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\proyectomysql\\proyectomysql.csproj": {
+    "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.AccesoDatos\\proyectomysql.AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\proyectomysql\\proyectomysql.csproj",
-        "projectName": "proyectomysql",
-        "projectPath": "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\proyectomysql\\proyectomysql.csproj",
+        "projectUniqueName": "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.AccesoDatos\\proyectomysql.AccesoDatos.csproj",
+        "projectName": "proyectomysql.AccesoDatos",
+        "projectPath": "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.AccesoDatos\\proyectomysql.AccesoDatos.csproj",
         "packagesPath": "C:\\Users\\Deltaforce\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\proyectomysql\\obj\\",
+        "outputPath": "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.AccesoDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deltaforce\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.Modelos\\proyectomysql.Modelos.csproj": {
+                "projectPath": "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.Modelos\\proyectomysql.Modelos.csproj"
+              },
+              "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.Utilidades\\proyectomysql.Utilidades.csproj": {
+                "projectPath": "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.Utilidades\\proyectomysql.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.Modelos\\proyectomysql.Modelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.Modelos\\proyectomysql.Modelos.csproj",
+        "projectName": "proyectomysql.Modelos",
+        "projectPath": "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.Modelos\\proyectomysql.Modelos.csproj",
+        "packagesPath": "C:\\Users\\Deltaforce\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.Modelos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Deltaforce\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,14 +116,150 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.Utilidades\\proyectomysql.Utilidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.Utilidades\\proyectomysql.Utilidades.csproj",
+        "projectName": "proyectomysql.Utilidades",
+        "projectPath": "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.Utilidades\\proyectomysql.Utilidades.csproj",
+        "packagesPath": "C:\\Users\\Deltaforce\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.Utilidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deltaforce\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql\\proyectomysql.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql\\proyectomysql.csproj",
+        "projectName": "proyectomysql",
+        "projectPath": "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql\\proyectomysql.csproj",
+        "packagesPath": "C:\\Users\\Deltaforce\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deltaforce\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.AccesoDatos\\proyectomysql.AccesoDatos.csproj": {
+                "projectPath": "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.AccesoDatos\\proyectomysql.AccesoDatos.csproj"
+              },
+              "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.Modelos\\proyectomysql.Modelos.csproj": {
+                "projectPath": "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.Modelos\\proyectomysql.Modelos.csproj"
+              },
+              "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.Utilidades\\proyectomysql.Utilidades.csproj": {
+                "projectPath": "C:\\Users\\Deltaforce\\Desktop\\Comandos c#\\C#\\sistema de inventario\\proyectomysql.Utilidades\\proyectomysql.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[6.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.1, )"
             },
